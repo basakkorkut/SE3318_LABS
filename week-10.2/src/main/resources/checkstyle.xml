@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<module name="Checker">
+    <module name="TreeWalker">
+        <module name="TypeName"/>
+        <module name="MethodName"/>
+        <module name="LocalVariableName"/>
+        <module name="MemberName"/>
+        <module name="ConstantName"/>
+        <module name="JavadocType"/>
+        <module name="JavadocMethod"/>
+        <module name="UnusedImports"/>
+    </module>
+
+    <module name="LineLength">
+        <property name="max" value="120"/>
+    </module>
+</module>
